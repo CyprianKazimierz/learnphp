@@ -5,3 +5,4 @@ services:
       - .:/var/www/html
     ports:
       - 8085:80
+    command: /bin/sh -c "chmod -R 777 /var/www/html && apache2-foreground"
