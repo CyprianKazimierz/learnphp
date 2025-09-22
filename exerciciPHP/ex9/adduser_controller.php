@@ -11,4 +11,5 @@
         }
     }
     include_once "adduser_view.php";
+    echo "new user added!!";
 ?>
